@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Авто билеты</title>
+    <link rel="stylesheet" href="main_dz_2_1.css" type="text/css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <header class="top-block">
+            <a class="logo" href="index_dz_2_1.html"><img src="images/logo2.png" alt="travelLogo"></a>
+
+            <nav>
+                <ul class="top-menu">
+                    <li><a href="/aboutUs/">О нас</a></li>
+                    <li><a href="index_dz_2_2.html">Контакты</a></li>
+                    <li><a href="/questionsandanswers/">Вопросы и ответы</a></li>
+                    <li><a href="index_dz_2_3.html">Отзывы</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="search-block">
+            <div class="container">
+                <h1>Поиск билетов</h1>
+                <div class="search-line">
+                    <div class="input-box">
+                        <form class="first-btn" name="Откуда" action="page/new.html" method="get">
+                            <button type="submit"></button>
+                            <input type="search" placeholder="Откуда">
+                        </form>
+                        <form class="second-btn" name="Куда" action="page/new.html" method="get">
+                            <button type="submit"></button>
+                            <input type="search" placeholder="Куда">
+                        </form>
+                    </div>
+                    <div class="third-btn">
+                        <form class="new-third-btn" name="Найти" action="page/new.html" method="get">
+                            <button type="submit">Найти</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="central-block">
+
+            <h3>Спецпредложения</h3>
+
+            <div class="special-offers">
+                <div class="first-offer">
+                    <p>Минск-Брест</p>
+                    <form class="new-btn" name="100 rub" action="page/new.html" method="get">
+                        <button type="submit">Узнать стоимость</button>
+                    </form>
+                </div>
+
+                <div class="second-offer">
+                    <p>Минск-Варшава</p>
+                    <form class="new-btn" name="100 rub" action="page/new.html" method="get">
+                        <button type="submit">Узнать стоимость</button>
+                    </form>
+                </div>
+
+                <div class="third-offer">
+                    <p>Минск-Вильнюс</p>
+                    <form class="new-btn" name="100 rub" action="page/new.html" method="get">
+                        <button type="submit">Узнать стоимость</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="bottom-block">
+
+            <h3>Популярные города</h3>
+
+            <div class="popular-cities">
+                <div class="autoplay">
+                    <div class="new-box">
+                        <img src="images/Варшава.jpg" alt="картинка">
+                        <div class="text">
+                            <p class="name">Варшава</p>
+                            <p class="nameservice">Польша</p>
+                        </div>
+                    </div>
+
+                    <div class="new-box">
+                        <img src="images/Прага.jpg" alt="картинка">
+                        <div class="text">
+                            <p class="name">Прага</p>
+                            <p class="nameservice">Чехия</p>
+                        </div>
+                    </div>
+
+                    <div class="new-box">
+                        <img src="images/Вильнюс.jpg" alt="картинка">
+                        <div class="text">
+                            <p class="name">Вильнюс</p>
+                            <p class="nameservice">Литва</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+
+        <nav>
+            <ul class="bottom-menu">
+                <li><a href="/aboutUs/">О компании</a></li>
+                <li><a href="index_dz_2_2.html">Контакты</a></li>
+                <li><a href="/tousers/">Пользователям</a></li>
+                <li><a href="/topartners/">Партнерам</a></li>
+            </ul>
+        </nav>
+
+        <div class="copyright">
+            <span>&copy; 2020, ООО &laquo;TakeBus-Авто-Билеты&raquo; - сервис поиска билетов</span>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script>
+        $('.autoplay').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2500,
+        });
+    </script>
+
+</body>
+
+</html>

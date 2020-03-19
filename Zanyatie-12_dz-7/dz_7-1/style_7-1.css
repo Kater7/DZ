@@ -1,0 +1,27 @@
+.coder {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+    background-color: rgb(175, 154, 196);
+    padding: 10px;
+    margin-left: 150px;
+}
+
+.text-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+input,
+button {
+    border: 1px solid gray;
+    font-size: 15px;
+    padding: 3px;
+}

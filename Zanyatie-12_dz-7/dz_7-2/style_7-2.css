@@ -1,0 +1,13 @@
+.currency-form {
+    display: inline-block;
+    background-color: rgb(157, 212, 157);
+    padding: 10px;
+    margin-left: 50px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.result {
+    height: 25px;
+    padding-top: 10px;
+}

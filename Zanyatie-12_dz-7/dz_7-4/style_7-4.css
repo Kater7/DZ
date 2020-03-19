@@ -1,0 +1,21 @@
+.table-wrap {
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    padding: 5px;
+    margin-left: 500px;
+    background-color: rgb(117, 192, 43);
+    border: 1px solid gray;
+}
+
+input {
+    padding: 3px;
+    width: 35px;
+    background-color: rgb(162, 231, 94);
+    border: 1px solid gray;
+}
+
+#field {
+    font-size: 15px;
+    text-align: right;
+}

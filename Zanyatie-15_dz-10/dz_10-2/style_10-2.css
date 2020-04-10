@@ -1,0 +1,25 @@
+table {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(39, 39, 43);
+    border: 5px outset rgb(69, 69, 94);
+    border-collapse: collapse;
+    background-color: rgb(194, 232, 255);
+    margin: 3% 25%;
+}
+
+#thead tr td {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(24, 24, 29);
+    /* border: 1px solid red; */
+    border: 3px solid rgb(37, 37, 44);
+    background-color: rgb(169, 197, 214);
+    padding: 20px;
+}
+
+#data-table tr td {
+    color: rgb(8, 8, 26);
+    border: 2px solid rgb(106, 94, 134);
+    padding: 20px;
+}

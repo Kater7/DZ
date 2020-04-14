@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 251, 251);
+    font-size: 15px;
+    color: rgb(9, 9, 27);
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-box {
+    background-color: rgb(44, 44, 182);
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(41, 38, 38);
+    padding: 30px 0;
+}
+
+.search-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    margin: 30px 150px;
+}
+
+.search-form .about {
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+.search-form input {
+    width: 200px;
+    font-size: 15px;
+    padding: 5px;
+    border: 2px solid rgb(119, 136, 153);
+    box-shadow: 2px 1px 2px rgb(152, 153, 152);
+}
+
+.search-form button {
+    width: 150px;
+    height: 45px;
+    font-size: 15px;
+    text-shadow: 1px 1px 1px rgb(41, 38, 38);
+    background-color: rgb(119, 136, 153);
+    color: honeydew;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 1px 2px rgb(152, 153, 152);
+    padding: 1px;
+    margin-top: 25px;
+}
+
+#jobs-list-name {
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    padding: 25px;
+}
+
+#jobs-list {
+    padding: 0 150px;
+}
+
+.place {
+    padding: 30px 0;
+}
+
+.place div .my-text {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.place div .text {
+    font-size: 14px;
+}
+
+img {
+    max-width: 150px;
+    max-height: 75px;
+}
+
+.place .first-line .my-text {
+    font-size: 19px;
+    padding-bottom: 5px;
+    text-decoration-line: underline;
+}
+
+#jobs-list .place div {
+    padding: 5px 0;
+}

@@ -1,0 +1,16 @@
+[{
+    "adress": "ул. Сурикова, 3",
+    "numberOfBuyers": 1100,
+    "salesArea": 60,
+    "year": 2002
+}, {
+    "adress": "ул. Кирилловская, 25",
+    "numberOfBuyers": 3300,
+    "salesArea": 100,
+    "year": 2006
+}, {
+    "adress": "ул. Ленина, 15",
+    "numberOfBuyers": 2200,
+    "salesArea": 70,
+    "year": 2010
+}]

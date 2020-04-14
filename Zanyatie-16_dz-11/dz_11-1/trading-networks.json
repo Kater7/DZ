@@ -1,0 +1,13 @@
+[{
+    "id": 55,
+    "name": "Виталюр",
+    "yearOfFoundation": 1995,
+    "about": "торговля продуктами питания",
+    "jsonAdress": "vitalur-trading-network.json"
+}, {
+    "id": 77,
+    "name": "Eva",
+    "yearOfFoundation": 2002,
+    "about": "продажа товаров для здоровья, красоты и дома",
+    "jsonAdress": "eva-trading-network.json"
+}]

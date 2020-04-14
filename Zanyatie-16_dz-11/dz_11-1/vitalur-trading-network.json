@@ -1,0 +1,16 @@
+[{
+    "adress": "ул. Космонавтов, 28",
+    "numberOfBuyers": 3500,
+    "salesArea": 2400,
+    "year": 2006
+}, {
+    "adress": "ул. Уборевича, 75",
+    "numberOfBuyers": 2500,
+    "salesArea": 950,
+    "year": 2002
+}, {
+    "adress": "ул. Плеханова, 89",
+    "numberOfBuyers": 4500,
+    "salesArea": 3500,
+    "year": 1999
+}]

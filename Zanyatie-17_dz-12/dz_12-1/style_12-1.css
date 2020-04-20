@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(250, 251, 251);
+    font-size: 15px;
+    color: rgb(9, 9, 27);
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#basket {
+    width: 110px;
+    background-color: rgb(140, 172, 173);
+    background-image: url('images/88e67a6318eea178d180cbccae1275e1.png');
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+    padding: 15px;
+    text-align: right;
+    font-size: 20px;
+    color: white;
+    text-shadow: rgb(68, 61, 61) 1px 1px 1px;
+    border: 1px solid rgb(180, 171, 171);
+    border-radius: 5px;
+    box-shadow: 0 0 2px;
+    margin: 15px 0;
+    margin-left: 1150px;
+}
+
+#basket-list-table {
+    padding: 10px;
+    margin: 20px 150px 20px 950px;
+}
+
+.basket-name {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: right;
+}
+
+#basket-list-table img {
+    width: 70px;
+    height: 70px;
+}
+
+#basket-list-table .name {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+#prodacts-list {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#prodacts-list div {
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgb(73, 72, 72);
+    padding: 20px;
+    margin: 0 40px;
+}
+
+#prodacts-list div li {
+    padding: 5px;
+}
+
+#prodacts-list div .name {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+#prodacts-list div .about {
+    font-size: 15px;
+}
+
+#prodacts-list div .quantity {
+    font-size: 13px;
+}
+
+.prodact-basket {
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(48, 66, 66);
+    background-color: rgb(140, 172, 173);
+    border: 1px solid rgb(183, 193, 194);
+    border-radius: 3px;
+    padding: 10px 25px;
+    margin: 10px;
+}

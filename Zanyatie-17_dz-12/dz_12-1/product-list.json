@@ -1,0 +1,31 @@
+[{
+    "image": "images/burgundy_hat.jpg",
+    "name": "Burgundy Hat",
+    "about": "Бордовая зимняя шапка",
+    "number": 1
+}, {
+    "image": "images/green_hat.jpg",
+    "name": "Green Hat",
+    "about": "Зеленая зимняя шапка",
+    "number": 3
+}, {
+    "image": "images/pink_hat.jpg",
+    "name": "Pink Hat",
+    "about": "Розовая зимняя шапка",
+    "number": 8
+}, {
+    "image": "images/red_hat.jpg",
+    "name": "Red Hat",
+    "about": "Красная демисезонная шапка",
+    "number": 4
+}, {
+    "image": "images/gray_hat.jpg",
+    "name": "Gray Hat",
+    "about": "Серая демисезонная шапка",
+    "number": 6
+}, {
+    "image": "images/yellow_hat.jpg",
+    "name": "Yellow Hat",
+    "about": "Желтая демисезонная шапка",
+    "number": 5
+}]
